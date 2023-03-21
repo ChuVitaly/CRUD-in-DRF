@@ -1,16 +1,18 @@
 # примеры API-запросов
+GET http://localhost:8000/stocks/
 
-@baseUrl = http://localhost:8000/api/v1
+###
+
+@baseUrl = http://localhost:8000
 
 # создание продукта
 POST {{baseUrl}}/products/
 Content-Type: application/json
 
 {
-  "title": "Помидор",
-  "description": "Лучшие помидоры на рынке"
+  "title": "Сливки",
+  "description": "Лучшие сливки на рынке"
 }
-
 ###
 
 # получение продуктов
