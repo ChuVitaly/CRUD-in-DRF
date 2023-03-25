@@ -17,7 +17,7 @@ class ProductPositionSerializer(serializers.ModelSerializer):
     class Meta:
 
         model = StockProduct
-        fields = ['id', 'quantity', 'price', 'product_id', 'stock_id']
+        fields = ['id', 'quantity', 'price', 'product']
 
 
 class StockSerializer(serializers.ModelSerializer):
